@@ -1,1 +1,9 @@
-<app-contact></app-contact>
+<div>
+    <a routerLink="">Wish</a>
+    <br>
+    <a routerLink="contact">Contact</a>
+    <br>
+    <a href="#" (click)="$event.preventDefault(); goToContact()">wish</a>
+</div>
+
+<router-outlet></router-outlet>
